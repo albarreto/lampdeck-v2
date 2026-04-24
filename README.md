@@ -158,21 +158,17 @@ https://SERVER-IP/
 ### 🔧 Core Improvements
 - CLI autocomplete for `lampdeck install <app>`
 - Improve installation flow and UX consistency
-- Backup and restore support for Apache configuration (safe reset)
-- Improve Alpine Linux compatibility (3.19+)
-  - Bash becomes mandatory (`apk add bash`)
+- Support for Alpine Linux
 
 ### 🌐 Frontpage Enhancements
 - Display domain alongside each site (when configured)
 - Execute CLI actions directly from Web GUI
 - Embedded web terminal
 - Highlight newly installed apps ("NEW" badge)
-- Improve UI feedback and interactivity
 
 ### 🖥️ CLI Enhancements
 - `remove-site` command (full cleanup of site + configs)
 - Apache configuration reset with version backup
-- Additional safety confirmations for destructive operations
 
 ### 📦 Application Ecosystem Expansion
 
