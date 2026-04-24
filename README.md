@@ -11,6 +11,7 @@ Perfect for developers who want fast setup, low overhead and zero complexity.
 </p>
 
 
+
 ## 🚀 Quick start
 
 ```bash
@@ -26,6 +27,7 @@ https://SERVER-IP/blog/
 ```
 
 
+
 ## 🧠 Why LAMP Deck?
 
 - No containers
@@ -37,6 +39,7 @@ https://SERVER-IP/blog/
 👉 Ideal alternative when Docker is overkill.
 
 
+
 ## ⚙️ What it installs
 
 - Apache 2.4 (event MPM)
@@ -45,6 +48,7 @@ https://SERVER-IP/blog/
 - Redis
 - phpMyAdmin
 - Certbot (Let's Encrypt)
+
 
 
 ## 📦 Features
@@ -87,6 +91,7 @@ lampdeck activate-ssl blog.local
 ```
 
 
+
 ## 🧩 When to use
 
 - Local development
@@ -97,6 +102,7 @@ lampdeck activate-ssl blog.local
 - Lab environments
 
 
+
 ## ⚖️ Comparison
 
 | Feature           | Docker        | Manual LAMP | LAMP Deck |
@@ -105,6 +111,7 @@ lampdeck activate-ssl blog.local
 | Complexity       | High         | Medium     | Low      |
 | UI dashboard     | ❌           | ❌         | ✅       |
 | Multisite ready  | ⚠️           | Manual     | ✅       |
+
 
 
 
@@ -125,11 +132,13 @@ Optional:
 ```
 
 
+
 ## 🌐 Access
 
 ```
 https://SERVER-IP/
 ```
+
 
 
 ## 🎯 Target audience
