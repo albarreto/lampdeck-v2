@@ -1,6 +1,7 @@
 # LAMP Deck
 
-Provision and manage multiple PHP / WordPress sites in seconds — no Docker required.
+Provision and manage multiple web applications in seconds — no Docker required.
+Supports PHP apps, CMS platforms like WordPress, Joomla, DokuWiki and more.
 
 **LAMP Deck** is a lightweight multisite manager for LAMP environments with a simple CLI and a built-in dashboard.
 
