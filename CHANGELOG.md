@@ -2,7 +2,7 @@
 
 ## Version 2.5.4 - 2026-04-21
 - Added option for installer/upgrade: # install_lampdeck.sh --ignore-install
-- Added Docuwiki installer
+- Added Dokuwiki installer
 - Added MediaWiki installer
 - Added enable/disable commands to temporarily hide sites without deleting them
 
