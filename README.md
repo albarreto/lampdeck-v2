@@ -211,6 +211,4 @@ https://SERVER-IP/
 - Multi-language support
 - Regional repository mirrors (faster downloads per country)
 
-### 🧩 Future Vision
-- Full web-based management (Alternative to CLI)
 
