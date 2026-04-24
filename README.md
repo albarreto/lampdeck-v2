@@ -158,7 +158,7 @@ https://SERVER-IP/
 ### 🔧 Core Improvements
 - CLI autocomplete for `lampdeck install <app>`
 - Improve installation flow and UX consistency
-- Support for Alpine Linux
+- Full support for Alpine Linux (3.19+)
 
 ### 🌐 Frontpage Enhancements
 - Display domain alongside each site (when configured)
@@ -192,10 +192,6 @@ https://SERVER-IP/
 - PrestaShop ⏳
 - OpenCart ⏳
 
-#### Project Management
-- OpenProject ⏳
-- Redmine ⏳
-
 #### Forms / Surveys
 - LimeSurvey ⏳
 
@@ -203,9 +199,9 @@ https://SERVER-IP/
 - Moodle ⏳
 
 ### 📧 Email Support
-- Basic mail server integration
-- SMTP configuration for apps
-- Optional outbound relay support
+- SMTP configuration helper (Postfix / external relay)
+- App-level mail configuration (WordPress, etc.)
+- Optional outbound relay (Gmail, SES, etc.)
 
 ### 🌍 Localization & Distribution
 - Multi-language support
