@@ -107,7 +107,7 @@ lampdeck activate-ssl blog.local
 ## ⚖️ Comparison
 
 | Feature           | Docker        | Manual LAMP | LAMP Deck |
-|------------------|--------------|------------|----------|
+||--||-|
 | Setup time       | Medium       | High       | Low      |
 | Complexity       | High         | Medium     | Low      |
 | UI dashboard     | ❌           | ❌         | ✅       |
@@ -149,4 +149,72 @@ https://SERVER-IP/
 - Sysadmins
 - Homelab enthusiasts
 - Anyone managing multiple sites on a single server
+
+
+
+
+## 🚀 Roadmap
+
+### 🔧 Core Improvements
+- CLI autocomplete for `lampdeck install <app>`
+- Improve installation flow and UX consistency
+- Backup and restore support for Apache configuration (safe reset)
+- Improve Alpine Linux compatibility (3.19+)
+  - Bash becomes mandatory (`apk add bash`)
+
+### 🌐 Frontpage Enhancements
+- Display domain alongside each site (when configured)
+- Execute CLI actions directly from Web GUI
+- Embedded web terminal
+- Highlight newly installed apps ("NEW" badge)
+- Improve UI feedback and interactivity
+
+### 🖥️ CLI Enhancements
+- `remove-site` command (full cleanup of site + configs)
+- Apache configuration reset with version backup
+- Additional safety confirmations for destructive operations
+
+### 📦 Application Ecosystem Expansion
+
+#### CMS
+- Grav ⏳
+
+#### Wiki / Documentation
+- BookStack ⏳
+
+#### Business / Productivity
+- Dolibarr ⏳
+- EspoCRM ⏳
+- Kimai ⏳
+- Grocy ⏳
+- Snipe-IT ⏳
+
+#### Files / Collaboration
+- Nextcloud ⏳
+
+#### E-commerce
+- PrestaShop ⏳
+- OpenCart ⏳
+
+#### Project Management
+- OpenProject ⏳
+- Redmine ⏳
+
+#### Forms / Surveys
+- LimeSurvey ⏳
+
+#### LMS / Education
+- Moodle ⏳
+
+### 📧 Email Support
+- Basic mail server integration
+- SMTP configuration for apps
+- Optional outbound relay support
+
+### 🌍 Localization & Distribution
+- Multi-language support
+- Regional repository mirrors (faster downloads per country)
+
+### 🧩 Future Vision
+- Full web-based management (Alternative to CLI)
 

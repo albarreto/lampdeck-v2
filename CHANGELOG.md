@@ -1,5 +1,8 @@
 # Changelog
 
+## Version 2.5.5 - 2026-04-24
+- Added MediaWiki installer and new Wiki examples in Instructions section
+
 ## Version 2.5.4 - 2026-04-21
 - Added option for installer/upgrade: # install_lampdeck.sh --ignore-install
 - Added Dokuwiki installer
