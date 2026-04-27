@@ -71,6 +71,7 @@ https://SERVER-IP/blog/
   - Joomla
   - DokuWiki
   - MediaWiki
+  - (more soon...)
 - Automatic database provisioning
 - Built-in admin shortcuts (WP-Admin, Joomla Admin etc)
 - Optional domain and SSL
@@ -206,5 +207,6 @@ https://SERVER-IP/
 ### 🌍 Localization & Distribution
 - Multi-language support
 - Regional repository mirrors (faster downloads per country)
+
 
 
