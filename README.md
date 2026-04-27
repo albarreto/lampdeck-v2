@@ -65,18 +65,20 @@ https://SERVER-IP/blog/
 
 ### Website management
 
-- Create HTML / PHP sites instantly
-- Install CMS automatically:
-  - WordPress
-  - Joomla
-  - DokuWiki
-  - MediaWiki
-  - (more soon...)
-- Automatic database provisioning
-- Built-in admin shortcuts (WP-Admin, Joomla Admin etc)
-- Optional domain and SSL
-- Safe validation (no accidental overwrite)
-
+- Instantly create HTML and PHP websites
+- Deploy applications with a single command:
+  - **CMS**
+    - WordPress
+    - Joomla
+    - Grav
+  - **Wiki / Documentation**
+    - DokuWiki
+    - MediaWiki
+  - *(More apps coming soon...)*
+- Automatic database provisioning (when required)
+- Built-in admin shortcuts (e.g. WP-Admin, Joomla Admin)
+- Optional domain configuration with HTTPS (Let's Encrypt)
+- Safe validation to prevent accidental overwrites
 
 ### CLI examples
 

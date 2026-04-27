@@ -1,7 +1,11 @@
 # Changelog
 
-## Version 2.5.5 - 2026-04-24
+## Version 2.5.5 - 2026-04-27
+- Added Grav CMS installer
 - Added MediaWiki installer and new Wiki examples in Instructions section
+- Fixed clean overwrite during install (lib/apps/pkg/assets)
+- Fixed Ubuntu Noble SSL cert path issue
+- Centralized version in common.sh
 
 ## Version 2.5.4 - 2026-04-21
 - Added option for installer/upgrade: # install_lampdeck.sh --ignore-install
