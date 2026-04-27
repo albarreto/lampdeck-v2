@@ -174,9 +174,6 @@ https://SERVER-IP/
 
 ### 📦 Application Ecosystem Expansion
 
-#### CMS
-- Grav ⏳
-
 #### Wiki / Documentation
 - BookStack ⏳
 
