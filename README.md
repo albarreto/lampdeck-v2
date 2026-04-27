@@ -107,13 +107,12 @@ lampdeck activate-ssl blog.local
 
 ## ⚖️ Comparison
 
-| Feature           | Docker        | Manual LAMP | LAMP Deck |
-||--||-|
-| Setup time       | Medium       | High       | Low      |
-| Complexity       | High         | Medium     | Low      |
-| UI dashboard     | ❌           | ❌         | ✅       |
-| Multisite ready  | ⚠️           | Manual     | ✅       |
-
+| Feature           | Docker | Manual LAMP | LAMP Deck |
+|------------------|--------|------------|----------|
+| Setup time       | Medium | High       | Low      |
+| Complexity       | High   | Medium     | Low      |
+| UI dashboard     | ❌     | ❌         | ✅       |
+| Multisite ready  | ⚠️     | Manual     | ✅       |
 
 
 
