@@ -1,5 +1,9 @@
 # Changelog
 
+## Version 2.5.6 - 2026-04-30
+- Fixed runtime version check on frontpage
+- Refactored frontpage PHP helpers into dedicated libraries
+
 ## Version 2.5.5 - 2026-04-27
 - Added Grav CMS installer
 - Added MediaWiki installer and new Wiki examples in Instructions section

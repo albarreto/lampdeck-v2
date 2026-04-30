@@ -8,7 +8,7 @@ Supports PHP apps, CMS platforms like WordPress, Joomla, DokuWiki and more.
 Perfect for developers who want fast setup, low overhead and zero complexity.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/albarreto/lampdeck-v2/main/screenshots/frontpage-2.5.4.webp" width="900">
+  <img src="https://raw.githubusercontent.com/albarreto/lampdeck-v2/main/screenshots/frontpage.webp" width="900">
 </p>
 
 
@@ -61,6 +61,7 @@ https://SERVER-IP/blog/
 - Lightweight web dashboard
 - Predictable and clean architecture
 - Modular app installer system
+- Responsive web dashboard (mobile and tablet friendly)
 
 
 ### Website management
@@ -74,6 +75,8 @@ https://SERVER-IP/blog/
   - **Wiki / Documentation**
     - DokuWiki
     - MediaWiki
+  - **Business**
+    - Dolibarr
   - *(More apps coming soon...)*
 - Automatic database provisioning (when required)
 - Built-in admin shortcuts (e.g. WP-Admin, Joomla Admin)
@@ -174,11 +177,7 @@ https://SERVER-IP/
 
 ### 📦 Application Ecosystem Expansion
 
-#### Wiki / Documentation
-- BookStack ⏳
-
 #### Business / Productivity
-- Dolibarr ⏳
 - EspoCRM ⏳
 - Kimai ⏳
 - Grocy ⏳
