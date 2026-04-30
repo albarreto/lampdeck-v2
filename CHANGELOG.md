@@ -1,5 +1,10 @@
 # Changelog
 
+## Version 2.5.7 - 2026-05-02
+- Support for Ubuntu 26.04 LTS (Resolute)
+- Ubuntu Jammy installer: switched to native PHP 8.1 (removed PPA).
+- Ubuntu Noble installer: switched to native PHP 8.3 (removed PPA).
+
 ## Version 2.5.6 - 2026-04-30
 - Fixed runtime version check on frontpage
 - Refactored frontpage PHP helpers into dedicated libraries

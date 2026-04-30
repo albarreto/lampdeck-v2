@@ -52,6 +52,16 @@ https://SERVER-IP/blog/
 
 
 
+## 🐧 Supported Operating Systems
+
+- Debian 12 (Bookworm)
+- Debian 13 (Trixie)
+- Ubuntu 22.04 LTS (Jammy)
+- Ubuntu 24.04 LTS (Noble)
+- Ubuntu 26.04 LTS (Resolute)
+
+
+
 ## 📦 Features
 
 ### Core
@@ -76,7 +86,7 @@ https://SERVER-IP/blog/
     - DokuWiki
     - MediaWiki
   - **Business**
-    - Dolibarr
+    - Dolibarr (ERP/CRM)
   - *(More apps coming soon...)*
 - Automatic database provisioning (when required)
 - Built-in admin shortcuts (e.g. WP-Admin, Joomla Admin)
