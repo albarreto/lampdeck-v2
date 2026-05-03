@@ -1,5 +1,10 @@
 # Changelog
 
+## Version 2.5.8 - 2026-05-03
+- Fixed PHP version display on Ubuntu Jammy (removed distro suffix)
+- Fixed PHP version detection in CLI (now matches active PHP-FPM)
+- Fixed underline on update badge link in frontpage
+
 ## Version 2.5.7 - 2026-05-02
 - Support for Ubuntu 26.04 LTS (Resolute)
 - Ubuntu Jammy installer: switched to native PHP 8.1 (removed PPA).
