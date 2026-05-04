@@ -1,5 +1,15 @@
 # Changelog
 
+## Version 2.5.11 - 2026-05-04
+- Added "Supported Apps" tab with application list and descriptions
+- Simplified Instructions tab
+- Unified PHP-FPM socket
+- Cleaned old PHP-FPM services and Apache configs automatically
+- Standardized PHP packages
+- All vhosts use version-independent socket
+- Fixed incorrect PHP version detection
+- Fixed Apache version output (now displays only the version number)
+
 ## Version 2.5.9 - 2026-05-03
 - Fixed PHP-FPM service detection in frontpage
 - Fixed PHP version display on Ubuntu Jammy (removed distro suffix)
