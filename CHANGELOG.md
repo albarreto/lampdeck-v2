@@ -1,18 +1,23 @@
 # Changelog
 
-## Version 2.5.8 - 2026-05-03
+## Version 2.5.9 - 2026-05-03
+- Fixed PHP-FPM service detection in frontpage
 - Fixed PHP version display on Ubuntu Jammy (removed distro suffix)
 - Fixed PHP version detection in CLI (now matches active PHP-FPM)
 - Fixed underline on update badge link in frontpage
-
-## Version 2.5.7 - 2026-05-02
-- Support for Ubuntu 26.04 LTS (Resolute)
+- Support for Ubuntu 26.04 LTS (Resolute) - beta
 - Ubuntu Jammy installer: switched to native PHP 8.1 (removed PPA).
 - Ubuntu Noble installer: switched to native PHP 8.3 (removed PPA).
 
 ## Version 2.5.6 - 2026-04-30
-- Fixed runtime version check on frontpage
+- Added Dolibarr ERP/CRM installer
+- Added Grav CMS installer
+- Added MediaWiki installer and new Wiki examples in Instructions section
 - Refactored frontpage PHP helpers into dedicated libraries
+- Fixed runtime version check on frontpage
+- Fixed clean overwrite during install (lib/apps/pkg/assets)
+- Fixed Ubuntu Noble SSL cert path issue
+- Centralized version in common.sh
 
 ## Version 2.5.5 - 2026-04-27
 - Added Grav CMS installer
