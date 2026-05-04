@@ -82,7 +82,7 @@ https://SERVER-IP/blog/
 | Category              | Application  | Description                     | Database |
 |----------------------|-------------|---------------------------------|----------|
 | Static / Dev         | HTML        | Static websites                 | ❌       |
-| Static / Dev         | PHP         | Custom PHP applications         | ❌       |
+| Static / Dev         | PHP         | Custom PHP applications         | -       |
 | CMS                  | WordPress   | Blogging and CMS platform       | ✅       |
 | CMS                  | Joomla      | Enterprise CMS                  | ✅       |
 | CMS                  | Grav        | Flat-file CMS                   | ❌       |
