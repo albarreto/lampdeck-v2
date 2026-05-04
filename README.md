@@ -77,7 +77,7 @@ https://SERVER-IP/blog/
 ### Website management
 
 - Instantly create HTML and PHP websites
-- Deploy applications with a single command:
+- Deploy any of the following applications with a single command:
 
 | Category              | Application  | Description                     | Database |
 |----------------------|-------------|---------------------------------|----------|
