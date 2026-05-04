@@ -78,20 +78,20 @@ https://SERVER-IP/blog/
 
 - Instantly create HTML and PHP websites
 - Deploy applications with a single command:
-  - **CMS**
-    - WordPress
-    - Joomla
-    - Grav
-  - **Wiki / Documentation**
-    - DokuWiki
-    - MediaWiki
-  - **Business**
-    - Dolibarr (ERP/CRM)
-  - *(More apps coming soon...)*
-- Automatic database provisioning (when required)
-- Built-in admin shortcuts (e.g. WP-Admin, Joomla Admin)
-- Optional domain configuration with HTTPS (Let's Encrypt)
-- Safe validation to prevent accidental overwrites
+
+| Category              | Application  | Description                     | Database |
+|----------------------|-------------|---------------------------------|----------|
+| Static / Dev         | HTML        | Static websites                 | ❌       |
+| Static / Dev         | PHP         | Custom PHP applications         | ❌       |
+| CMS                  | WordPress   | Blogging and CMS platform       | ✅       |
+| CMS                  | Joomla      | Enterprise CMS                  | ✅       |
+| CMS                  | Grav        | Flat-file CMS                   | ❌       |
+| Wiki / Documentation | DokuWiki    | Lightweight wiki                | ❌       |
+| Wiki / Documentation | MediaWiki   | Wikipedia-style wiki            | ✅       |
+| Business             | Dolibarr    | ERP / CRM system               | ✅       |
+
+> More applications coming soon...
+
 
 ### CLI examples
 
