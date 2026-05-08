@@ -1,5 +1,13 @@
 # Changelog
 
+## Version 2.6.0 - 2026-05-08
+- Added Alpine Linux support (bash is required: apk add bash)
+- Added automatic web user detection (multi-distro support)
+- Removed hardcoded www-data user
+- Improved compatibility with Alpine Linux
+- Tools tab moved to other position
+- Fixed regression introduced in 2.5.11 causing PHP-FPM socket issues after reboot
+
 ## Version 2.5.11 - 2026-05-04
 - Added "Supported Apps" tab with application list and descriptions
 - Simplified Instructions tab
@@ -118,9 +126,7 @@
 - Fixed PHP 8.4 installation for Ubuntu releases
 
 ## Version 2.1.0 - 2026-04-12
-- Support for Ubuntu 20.04 LTS (Jammy)
-- Support for Ubuntu 24.04 LTS (Noble)
-- Support for Alpine 3.x
+- Added support for Ubuntu LTS releases (22.04 Jammy, 24.04 Noble)
 
 ## Version 2.0.0 - 2026-04-11
 - Initial release
