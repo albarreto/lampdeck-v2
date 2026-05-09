@@ -1,5 +1,12 @@
 # Changelog
 
+## Version 2.6.1 - 2026-05-09
+- Fixed PHP-FPM startup issues after reboot on Debian, Ubuntu and Alpine
+- Improved PHP version detection across all supported distributions
+- Improved Linux distribution detection using PRETTY_NAME
+- Fixed Alpine Linux compatibility with OpenRC environments
+- Fixed Apache/PHP-FPM socket handling on Alpine Linux
+
 ## Version 2.6.0 - 2026-05-08
 - Added Alpine Linux support (bash is required: apk add bash)
 - Added automatic web user detection (multi-distro support)
