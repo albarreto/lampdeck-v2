@@ -1,5 +1,12 @@
 # Changelog
 
+## Version 2.6.3 - 2026-05-10
+- Improved Alpine Linux support
+- Fixed HTTPS domain handling on Alpine
+- Improved Apache virtual host compatibility across distributions
+- Fixed frontpage and subsite coexistence
+- Improved subpath website access compatibility
+
 ## Version 2.6.2 - 2026-05-10
 - Fixed domain vhost precedence overriding websites with frontpage default virtual hosts
 - Removed unnecessary 000-lampdeck Apache vhosts during domain creation
