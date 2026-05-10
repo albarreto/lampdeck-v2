@@ -1,5 +1,10 @@
 # Changelog
 
+## Version 2.6.2 - 2026-05-10
+- Fixed domain vhost precedence overriding websites with frontpage default virtual hosts
+- Removed unnecessary 000-lampdeck Apache vhosts during domain creation
+- Improved Apache VirtualHost behavior for domain-based access on Alpine Linux
+
 ## Version 2.6.1 - 2026-05-09
 - Fixed PHP-FPM startup issues after reboot on Debian, Ubuntu and Alpine
 - Improved PHP version detection across all supported distributions

@@ -102,9 +102,12 @@ lampdeck install wordpress blog "Company blog"
 lampdeck install joomla portal "Customer portal"
 lampdeck install dokuwiki wiki "Internal wiki"
 lampdeck install mediawiki wiki "Another wiki"
+lampdeck install dolibarr my-crm "Enterprise CRM"
 
 lampdeck create-domain blog.local blog
 lampdeck activate-ssl blog.local
+lampdeck disable dokuwiki
+
 ```
 
 
