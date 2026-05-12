@@ -54,6 +54,7 @@ https://SERVER-IP/blog/
 
 ## 🐧 Supported Operating Systems
 
+- Alpine Linux v3
 - Debian 12 (Bookworm)
 - Debian 13 (Trixie)
 - Ubuntu 22.04 LTS (Jammy)

@@ -1,18 +1,20 @@
 # Changelog
 
+Version 2.7.0 - 2026-05-12
+- Added Alpine Linux support (bash is required: apk add bash)
+- Fixed Alpine frontpage showing Apache system directories
+- Improved Alpine Linux service compatibility
+- Renamed Apache section to Web Server
+
 ## Version 2.6.3 - 2026-05-10
 - Improved Alpine Linux support
 - Fixed HTTPS domain handling on Alpine
 - Improved Apache virtual host compatibility across distributions
 - Fixed frontpage and subsite coexistence
 - Improved subpath website access compatibility
-
-## Version 2.6.2 - 2026-05-10
 - Fixed domain vhost precedence overriding websites with frontpage default virtual hosts
 - Removed unnecessary 000-lampdeck Apache vhosts during domain creation
 - Improved Apache VirtualHost behavior for domain-based access on Alpine Linux
-
-## Version 2.6.1 - 2026-05-09
 - Fixed PHP-FPM startup issues after reboot on Debian, Ubuntu and Alpine
 - Improved PHP version detection across all supported distributions
 - Improved Linux distribution detection using PRETTY_NAME
@@ -20,7 +22,6 @@
 - Fixed Apache/PHP-FPM socket handling on Alpine Linux
 
 ## Version 2.6.0 - 2026-05-08
-- Added Alpine Linux support (bash is required: apk add bash)
 - Added automatic web user detection (multi-distro support)
 - Removed hardcoded www-data user
 - Improved compatibility with Alpine Linux
@@ -36,8 +37,6 @@
 - All vhosts use version-independent socket
 - Fixed incorrect PHP version detection
 - Fixed Apache version output (now displays only the version number)
-
-## Version 2.5.9 - 2026-05-03
 - Fixed PHP-FPM service detection in frontpage
 - Fixed PHP version display on Ubuntu Jammy (removed distro suffix)
 - Fixed PHP version detection in CLI (now matches active PHP-FPM)
@@ -50,41 +49,23 @@
 - Added Dolibarr ERP/CRM installer
 - Added Grav CMS installer
 - Added MediaWiki installer and new Wiki examples in Instructions section
+- Added option for installer/upgrade: # install_lampdeck.sh --ignore-install
+- Added Dokuwiki installer
+- Added enable/disable commands to temporarily hide sites without deleting them
 - Refactored frontpage PHP helpers into dedicated libraries
+- added app categories
 - Fixed runtime version check on frontpage
 - Fixed clean overwrite during install (lib/apps/pkg/assets)
 - Fixed Ubuntu Noble SSL cert path issue
-- Centralized version in common.sh
-
-## Version 2.5.5 - 2026-04-27
-- Added Grav CMS installer
-- Added MediaWiki installer and new Wiki examples in Instructions section
 - Fixed clean overwrite during install (lib/apps/pkg/assets)
 - Fixed Ubuntu Noble SSL cert path issue
-- Centralized version in common.sh
-
-## Version 2.5.4 - 2026-04-21
-- Added option for installer/upgrade: # install_lampdeck.sh --ignore-install
-- Added Dokuwiki installer
-- Added MediaWiki installer
-- Added enable/disable commands to temporarily hide sites without deleting them
-
-## Version 2.5.3 - 2026-04-18
 - Fixed install from scratch
-
-## Version 2.5.2 - 2026-04-18
-- added app categories
-
-## Version 2.5.1 - 2026-04-17
 - Fixed bookworm packages
 
 ## Version 2.5.0 - 2026-04-17
 - Removed create-website command (replaced for "lampdesk install html/php ...")
 
 ## Version 2.4.2 - 2026-04-17
-- Fixed site type detection in "lampdeck sites"
-
-## Version 2.4.1 - 2026-04-17
 - Standardized app installers using shared app-common.sh
 - Unified structure for apps with and without database
 - Simplified creation of new app scripts (minimal variables required)
@@ -94,6 +75,7 @@
 - Fixed site folder removal when database overwrite is declined
 - Fixed Joomla installation path after extraction
 - Fixed loading of shared functions from app-common
+- Fixed site type detection in "lampdeck sites"
 - Renamed frontpage tab from HTML to HTML/PHP
 - Updated frontpage new version alert text
 
