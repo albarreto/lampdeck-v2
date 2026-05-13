@@ -1,6 +1,10 @@
 # Changelog
 
-Version 2.7.0 - 2026-05-12
+## Version 2.7.1 - 2026-05-13
+- Fixed bash autocompletion support for Alpine Linux
+- Improved Alpine shell compatibility
+
+## Version 2.7.0 - 2026-05-12
 - Added Alpine Linux support (bash is required: apk add bash)
 - Fixed Alpine frontpage showing Apache system directories
 - Improved Alpine Linux service compatibility
