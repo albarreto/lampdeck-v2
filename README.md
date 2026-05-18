@@ -90,6 +90,7 @@ https://SERVER-IP/blog/
 | Wiki / Documentation | DokuWiki    | Lightweight wiki                | ❌       |
 | Wiki / Documentation | MediaWiki   | Wikipedia-style wiki            | ✅       |
 | Business             | Dolibarr    | ERP / CRM system               | ✅       |
+| Business             | EspoCRM     | ERP / CRM system               | ✅       |
 
 > More applications coming soon...
 

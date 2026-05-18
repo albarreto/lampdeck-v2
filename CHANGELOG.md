@@ -1,5 +1,17 @@
 # Changelog
 
+## Version 2.8.0 - 2026-05-18
+- Added EspoCRM installer
+- Added Nextcloud installer
+- New command: recover (recreate missing Apache alias for a website)
+- New command: recover-all (recreate missing Apache aliases for all websites)
+- Fixed reinstall/upgrade preserving existing website aliases and configurations
+- Added bzip2 support for .tar.bz2 application packages
+- Added support for apps using custom webroot (APP_WEBROOT)
+- Improved compatibility with modern PHP applications using /public structure
+- Improved PHP defaults for enterprise applications (max_input_time)
+- Added persistent global config (/etc/lampdeck/config.sh)
+
 ## Version 2.7.1 - 2026-05-13
 - Fixed bash autocompletion support for Alpine Linux
 - Improved Alpine shell compatibility
