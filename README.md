@@ -80,7 +80,7 @@ https://SERVER-IP/blog/
 - Instantly create HTML and PHP websites
 - Deploy any of the following applications with a single command:
 
-| Category              | Application | Description                     | Database |
+| Category              | Application | Description                     | Use DB?  |
 |-----------------------|-------------|---------------------------------|----------|
 | Static / Dev          | HTML        | Static websites                 | ❌       |
 | Static / Dev          | PHP         | Custom PHP applications         | -        |
@@ -90,7 +90,7 @@ https://SERVER-IP/blog/
 | Wiki / Documentation  | DokuWiki    | Lightweight wiki                | ❌       |
 | Wiki / Documentation  | MediaWiki   | Wikipedia-style wiki            | ✅       |
 | Business              | Dolibarr    | ERP / CRM system                | ✅       |
-| Business              | EspoCRM     | ERP / CRM system                | ✅       |
+| Business              | EspoCRM     | ERP / CRM system               | ✅       |
 | Files / Collaboration | Nextcloud   | Self-hosted file sync and collaboration platform | ✅       |
 
 > More applications coming soon...
