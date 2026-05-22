@@ -92,6 +92,7 @@ https://SERVER-IP/blog/
 | Business              | Dolibarr    | ERP / CRM system                | ✅       |
 | Business              | EspoCRM     | ERP / CRM system               | ✅       |
 | Files / Collaboration | Nextcloud   | Self-hosted file sync and collaboration platform | ✅       |
+| LMS / Education       | Moodle      | Open-source learning management system (LMS)     | ✅       |
 
 > More applications coming soon...
 
@@ -108,6 +109,7 @@ lampdeck install mediawiki wiki "Another wiki"
 lampdeck install dolibarr my-erp "Enterprise ERP"
 lampdeck install espocrm my-crm "Enterprise CRM"
 lampdeck install nextcloud my-cloud "File sharing"
+lampdeck install moodle my-academy "Moodle Courses"
 
 lampdeck create-domain blog.local blog
 lampdeck activate-ssl blog.local

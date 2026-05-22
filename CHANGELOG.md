@@ -1,5 +1,13 @@
 # Changelog
 
+## Version 2.9.0 - 2026-05-22
+- Added Moodle installer
+- Nextcloud installation is now blocked on unsupported PHP versions
+- Nextcloud: added default admin username ([admin]) to installer prompt
+- Nextcloud: added admin password to final installation summary
+- Nextcloud: fixed install in ubuntu jammy
+- Installers now display both public hostname/FQDN and direct server IP access URLs after website creation
+
 ## Version 2.8.0 - 2026-05-18
 - Added EspoCRM installer
 - Added Nextcloud installer
