@@ -1,5 +1,9 @@
 # Changelog
 
+## Version 2.9.1 - 2026-05-26
+- Moodle: added automatic cron configuration for scheduled tasks
+- Moodle: installer now automatically downloads and configures Portuguese (Brazil), Spanish, French, and German language packs
+
 ## Version 2.9.0 - 2026-05-22
 - Added Moodle installer
 - Nextcloud installation is now blocked on unsupported PHP versions
