@@ -1,5 +1,8 @@
 # Changelog
 
+## Version 2.9.2 - 2026-05-29
+- Nextcloud: fixed installation on Debian
+
 ## Version 2.9.1 - 2026-05-26
 - Moodle: added automatic cron configuration for scheduled tasks
 - Moodle: installer now automatically downloads and configures Portuguese (Brazil), Spanish, French, and German language packs
