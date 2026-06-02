@@ -1,17 +1,22 @@
 # Changelog
 
-## Version 2.10.0 - 2026-06-02
-- Added frontpage authentication management commands (auth-enable / auth-disable)
+## Version 2.10.1 - 2026-06-02
+- Nextcloud: disabled default example files for new users
+- Nextcloud: enabled APCu and Redis memory caching
+- Nextcloud: enabled Redis transactional file locking
+- Nextcloud: added SVG preview support through ImageMagick and librsvg
 - Frontpage: added operating system information to Host card
 - Frontpage: improved statistics layout to better accommodate long hostnames/FQDNs
 - Alpine: fixed installer failure
 - Alpine: added PHP Calendar extension required by Dolibarr
 - Improved cached package validation
+- Fixed subsite URLs without trailing slash
+- Security: added HSTS header to HTTPS virtual hosts
+- Performance: increased PHP OPcache memory and interned strings buffer for enterprise applications
+- Added frontpage authentication management commands (auth-enable / auth-disable)
 
 ## Version 2.9.2 - 2026-05-29
 - Nextcloud: fixed installation on Debian
-
-## Version 2.9.1 - 2026-05-26
 - Moodle: added automatic cron configuration for scheduled tasks
 - Moodle: installer now automatically downloads and configures Portuguese (Brazil), Spanish, French, and German language packs
 
