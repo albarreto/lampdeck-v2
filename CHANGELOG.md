@@ -1,6 +1,7 @@
 # Changelog
 
-## Version 2.10.1 - 2026-06-02
+## Version 2.11.0 - 2026-06-02
+- Added LAMP Deck Mail Relay using Postfix as a local SMTP relay for installed apps
 - Nextcloud: disabled default example files for new users
 - Nextcloud: enabled APCu and Redis memory caching
 - Nextcloud: enabled Redis transactional file locking
