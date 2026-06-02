@@ -113,7 +113,15 @@ lampdeck install moodle my-academy "Moodle Courses"
 
 lampdeck create-domain blog.local blog
 lampdeck activate-ssl blog.local
+
 lampdeck disable dokuwiki
+
+lampdeck recover blog
+lampdeck recover-all
+
+lampdeck auth-enable
+lampdeck auth-enable my-custom-user
+lampdeck auth-disable
 
 ```
 

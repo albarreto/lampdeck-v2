@@ -1,5 +1,13 @@
 # Changelog
 
+## Version 2.10.0 - 2026-06-02
+- Added frontpage authentication management commands (auth-enable / auth-disable)
+- Frontpage: added operating system information to Host card
+- Frontpage: improved statistics layout to better accommodate long hostnames/FQDNs
+- Alpine: fixed installer failure
+- Alpine: added PHP Calendar extension required by Dolibarr
+- Improved cached package validation
+
 ## Version 2.9.2 - 2026-05-29
 - Nextcloud: fixed installation on Debian
 
