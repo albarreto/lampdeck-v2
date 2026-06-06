@@ -1,5 +1,12 @@
 # Changelog
 
+## Version 2.12.0 - 2026-06-06
+- Added Kanboard installer
+- Added phpMyFaq installer
+- Frontpage: added favicon support
+- Added backup/restore command for websites and databases
+- Added backup-all/restore-all command for full server website backup and restore
+
 ## Version 2.11.0 - 2026-06-02
 - Added LAMP Deck Mail Relay using Postfix as a local SMTP relay for installed apps
 - Nextcloud: disabled default example files for new users

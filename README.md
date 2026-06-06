@@ -80,19 +80,23 @@ https://SERVER-IP/blog/
 - Instantly create HTML and PHP websites
 - Deploy any of the following applications with a single command:
 
-| Category              | Application | Description                     | Use DB?  |
-|-----------------------|-------------|---------------------------------|----------|
-| Static / Dev          | HTML        | Static websites                 | ❌       |
-| Static / Dev          | PHP         | Custom PHP applications         | -        |
-| CMS                   | WordPress   | Blogging and CMS platform       | ✅       |
-| CMS                   | Joomla      | Enterprise CMS                  | ✅       |
-| CMS                   | Grav        | Flat-file CMS                   | ❌       |
-| Wiki / Documentation  | DokuWiki    | Lightweight wiki                | ❌       |
-| Wiki / Documentation  | MediaWiki   | Wikipedia-style wiki            | ✅       |
-| Business              | Dolibarr    | ERP / CRM system                | ✅       |
-| Business              | EspoCRM     | ERP / CRM system               | ✅       |
-| Files / Collaboration | Nextcloud   | Self-hosted file sync and collaboration platform | ✅       |
-| LMS / Education       | Moodle      | Open-source learning management system (LMS)     | ✅       |
+## Supported Applications
+
+| Category              | Application | Description                                      | Database |
+|-----------------------|-------------|--------------------------------------------------|----------|
+| Static / Dev          | HTML        | Static websites                                  | ❌ |
+| Static / Dev          | PHP         | Custom PHP applications                          | ❌ |
+| CMS                   | WordPress   | Blogging and CMS platform                        | ✅ |
+| CMS                   | Joomla      | Enterprise CMS                                   | ✅ |
+| CMS                   | Grav        | Flat-file CMS                                    | ❌ |
+| Documentation / Wiki  | DokuWiki    | Lightweight wiki                                 | ❌ |
+| Documentation / Wiki  | MediaWiki   | Wikipedia-style wiki                             | ✅ |
+| Documentation / KB    | phpMyFAQ    | Knowledge base and FAQ platform                  | ✅ |
+| Business              | Dolibarr    | ERP / CRM system                                 | ✅ |
+| Business              | EspoCRM     | CRM platform for sales and customer management   | ✅ |
+| Project Management    | Kanboard    | Kanban-based project management                  | ❌ |
+| Files / Collaboration | Nextcloud   | Self-hosted file sync and collaboration platform | ✅ |
+| LMS / Education       | Moodle      | Open-source learning management system (LMS)     | ✅ |
 
 > More applications coming soon...
 
@@ -122,10 +126,12 @@ lampdeck recover-all
 lampdeck auth-enable
 lampdeck auth-enable my-custom-user
 lampdeck auth-disable
+lampdeck backup blog
+lampdeck backup-all
+lampdeck restore backup-blog.tar.gz
+lampdeck restore-all
 
 ```
-
-
 
 ## 🧩 When to use
 
