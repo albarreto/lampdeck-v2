@@ -1,5 +1,10 @@
 # Changelog
 
+## Version 2.12.1 - 2026-06-08
+- Installer: added backup and restore commands to the post-install command summary
+- Restore: fixed extraction of website files from current backup format
+- Restore: added validation for missing files directory and SQL dump
+
 ## Version 2.12.0 - 2026-06-06
 - Added Kanboard installer
 - Added phpMyFaq installer
