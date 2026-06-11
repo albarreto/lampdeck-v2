@@ -1,11 +1,13 @@
 # Changelog
 
-## Version 2.12.2 - 2026-06-11
+## Version 2.12.3 - 2026-06-11
+- Improved restore and restore-all commands with colorized output
+- Improved backup and backup-all commands with colorized output
+- LD Installer: added colorized output
 - Restore: removed duplicated database import
 - Fixed backup/restore issues
 - Fixed recover issues
 - Fixed frontpage authentication
-- Installer: added colorized output
 
 ## Version 2.12.1 - 2026-06-08
 - Installer: added backup and restore commands to the post-install command summary
