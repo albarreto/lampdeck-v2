@@ -1,5 +1,12 @@
 # Changelog
 
+## Version 2.12.2 - 2026-06-11
+- Restore: removed duplicated database import
+- Fixed backup/restore issues
+- Fixed recover issues
+- Fixed frontpage authentication
+- Installer: added colorized output
+
 ## Version 2.12.1 - 2026-06-08
 - Installer: added backup and restore commands to the post-install command summary
 - Restore: fixed extraction of website files from current backup format
