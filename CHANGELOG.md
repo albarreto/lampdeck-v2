@@ -1,6 +1,6 @@
 # Changelog
 
-## Version 2.12.3 - 2026-06-11
+## Version 2.12.4 - 2026-06-11
 - Improved restore and restore-all commands with colorized output
 - Improved backup and backup-all commands with colorized output
 - LD Installer: added colorized output
