@@ -1,5 +1,9 @@
 # Changelog
 
+## Version 2.12.5 - 2026-06-12
+- Security: Apache hardening now automatically hides server version information
+- Security: Fixed frontpage authentication persistence across LAMP Deck upgrades
+
 ## Version 2.12.4 - 2026-06-11
 - Improved restore and restore-all commands with colorized output
 - Improved backup and backup-all commands with colorized output
