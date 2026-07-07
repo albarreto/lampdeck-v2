@@ -1,5 +1,11 @@
 # Changelog
 
+## Version 2.12.6 - 2026-07-07
+- Moodle: Updated Moodle installer to version 5.2.1
+- Moodle: Improved Moodle installer compatibility
+- Added installation of libsasl2-modules and sasl2-bin
+- Fixes SMTP relay authentication failures
+
 ## Version 2.12.5 - 2026-06-12
 - Security: Apache hardening now automatically hides server version information
 - Security: Fixed frontpage authentication persistence across LAMP Deck upgrades
