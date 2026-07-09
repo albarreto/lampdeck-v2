@@ -1,5 +1,11 @@
 # Changelog
 
+## Version 2.13.0 - 2026-07-09
+- Frontpage: configured domains are now used as the default website links
+- New command: Added `lampdeck mail-relay` command to show local SMTP settings
+- New command: Added `remove-domain` command to detach a configured domain while preserving IP/path access
+- CLI: `lampdeck sites --all` now lists disabled websites in addition to active ones
+
 ## Version 2.12.6 - 2026-07-07
 - Moodle: Updated Moodle installer to version 5.2.1
 - Moodle: Improved Moodle installer compatibility
