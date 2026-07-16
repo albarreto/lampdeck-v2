@@ -1,5 +1,8 @@
 # Changelog
 
+## Version 2.14.0 - 2026-07-16
+- Frontpage: Added integrated Web Terminal for LAMP Deck commands (authenticated users only).
+
 ## Version 2.13.0 - 2026-07-09
 - Frontpage: configured domains are now used as the default website links
 - New command: Added `lampdeck mail-relay` command to show local SMTP settings
