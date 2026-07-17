@@ -1,5 +1,12 @@
 # Changelog
 
+## Version 2.14.1 - 2026-07-17
+- CLI: Fixed the error shown for unsupported commands
+- CLI: Added color to error messages
+- Terminal: Added su - support to the Web Terminal, allowing administrators to access a full root shell and return to the restricted prompt with exit
+- Terminal: Increased the Web Terminal viewport height for a better interactive experience
+- Terminal: Improved reverse proxy compatibility for the Web Terminal by correctly supporting WebSocket connections behind external HTTPS proxies
+
 ## Version 2.14.0 - 2026-07-16
 - Frontpage: Added integrated Web Terminal for LAMP Deck commands (authenticated users only).
 
