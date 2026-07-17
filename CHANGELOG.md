@@ -1,6 +1,10 @@
 # Changelog
 
-## Version 2.14.1 - 2026-07-17
+## Version 2.14.2 - 2026-07-17
+- CLI: Help and unsupported application validation now use the dynamically detected list of installed application modules.
+- CLI: Added intelligent command auto-completion
+- CLI: Added persistent command history
+- CLI: Added dynamic completion for applications, sites, disabled sites, domains, backups, and other command-specific resources
 - CLI: Fixed the error shown for unsupported commands
 - CLI: Added color to error messages
 - Terminal: Added su - support to the Web Terminal, allowing administrators to access a full root shell and return to the restricted prompt with exit
