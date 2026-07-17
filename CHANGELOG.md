@@ -1,16 +1,5 @@
 # Changelog
 
-## Version 2.14.2 - 2026-07-17
-- CLI: Help and unsupported application validation now use the dynamically detected list of installed application modules.
-- CLI: Added intelligent command auto-completion
-- CLI: Added persistent command history
-- CLI: Added dynamic completion for applications, sites, disabled sites, domains, backups, and other command-specific resources
-- CLI: Fixed the error shown for unsupported commands
-- CLI: Added color to error messages
-- Terminal: Added su - support to the Web Terminal, allowing administrators to access a full root shell and return to the restricted prompt with exit
-- Terminal: Increased the Web Terminal viewport height for a better interactive experience
-- Terminal: Improved reverse proxy compatibility for the Web Terminal by correctly supporting WebSocket connections behind external HTTPS proxies
-
 ## Version 2.14.0 - 2026-07-16
 - Frontpage: Added integrated Web Terminal for LAMP Deck commands (authenticated users only).
 
