@@ -1,5 +1,8 @@
 # Changelog
 
+## Version 2.14.3 - 2026-07-20
+- Terminal: Web Terminal now requires root authentication for shell access
+
 ## Version 2.14.0 - 2026-07-16
 - Frontpage: Added integrated Web Terminal for LAMP Deck commands (authenticated users only).
 
