@@ -60,6 +60,7 @@
 - Added frontpage authentication management commands (auth-enable / auth-disable)
 
 ## Version 2.9.2 - 2026-05-29
+- EspoCRM: Updated to version 9.3.7
 - Nextcloud: fixed installation on Debian
 - Moodle: added automatic cron configuration for scheduled tasks
 - Moodle: installer now automatically downloads and configures Portuguese (Brazil), Spanish, French, and German language packs
