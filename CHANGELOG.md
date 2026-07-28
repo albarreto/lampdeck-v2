@@ -1,5 +1,12 @@
 # Changelog
 
+## Version 2.14.5 - 2026-07-28
+- EspoCRM: Updated to version 10.0.0.3
+- phpMyFAQ: Updated to version 4.1.6
+- phpMyFAQ: Fixed phpMyFAQ 404 handling
+- Fixed reverse proxy compatibility for the Web Terminal.
+- Updated the Web Terminal documentation to require WebSocket headers only for the /terminal/ path.
+
 ## Version 2.14.3 - 2026-07-20
 - Terminal: Web Terminal now requires root authentication for shell access
 
