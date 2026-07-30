@@ -1,5 +1,14 @@
 # Changelog
 
+## Version 2.14.6 - 2026-07-30
+- Installer: "--ignore-install" argument is now automatically overridden when package installation is mandatory
+- phpMyFAQ: Downgraded phpMyFAQ to 4.1.4 due to compatibility issues in version 4.1.6
+- EspoCRM: Fixed EspoCRM installer cache reuse to prevent repeated cached downloads
+- CLI: Removed the redundant Domain column from lampdeck sites; the URL column now displays either the configured domain or the server IP as appropriate
+- CLI: Fixed domain detection for disabled websites in `lampdeck sites --all`
+- CLI: Improved command completion for application installation
+- CLI: Excluded hidden directories from site auto-completion suggestions
+
 ## Version 2.14.5 - 2026-07-28
 - EspoCRM: Updated to version 10.0.0.3
 - phpMyFAQ: Updated to version 4.1.6
